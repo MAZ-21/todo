@@ -21,7 +21,6 @@ class FirebaseTaskRepository implements TaskRepository {
 
   @override
   Future<void> addTask(TaskModel task) async {
-    // .doc() with no id lets Firestore generate the id; we then write it in.
     final docRef = _tasksRef.doc();
     final taskWithId = task.copyWith(id: docRef.id);
     await docRef.set(taskWithId.toFirestore());
