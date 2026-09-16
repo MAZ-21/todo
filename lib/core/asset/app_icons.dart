@@ -1,0 +1,34 @@
+class AppIcons {
+  static const iconPath = 'asset/icons/';
+  static const logoOnboarding = '${iconPath}Logo Onboarding.svg'; 
+  static const facebook = '${iconPath}facebook.svg'; 
+  static const google = '${iconPath}google.svg'; 
+  static const message = '${iconPath}message.svg'; 
+  static const eye = '${iconPath}eye.svg'; 
+  static const eyeSlash = '${iconPath}eye-slash.svg'; 
+  static const add = '${iconPath}add.svg'; 
+  static const alarm = '${iconPath}alarm.svg'; 
+  static const arrowBackRounded = '${iconPath}arrow_back_round.svg'; 
+  static const buckle = '${iconPath}buckle.svg'; 
+  static const calendar = '${iconPath}calendar.svg'; 
+  static const car = '${iconPath}car.svg'; 
+  static const category = '${iconPath}Category.svg'; 
+  static const close = '${iconPath}close.svg'; 
+  static const cloudNotification = '${iconPath}cloud-notif.svg'; 
+  static const directInbox = '${iconPath}direct-inbox.svg'; 
+  static const flagOutline = '${iconPath}flag_outline.svg'; 
+  static const flag = '${iconPath}flag.svg'; 
+  static const home = '${iconPath}Home.svg'; 
+  static const paperPlus = '${iconPath}Paper Plus.svg'; 
+  static const plus = '${iconPath}Plus.svg'; 
+  static const reserve = '${iconPath}reserve.svg'; 
+  static const searchRound = '${iconPath}search_round.svg'; 
+  static const send = '${iconPath}send.svg'; 
+  static const sun = '${iconPath}sun.svg'; 
+  static const menuDotsHorizontal = '${iconPath}three_dots_hor.svg.svg'; 
+  static const menuDotsVertical = '${iconPath}three_dots_vert.svg'; 
+  static const timePlus = '${iconPath}time_plus.svg'; 
+  static const timer = '${iconPath}Timer.svg'; 
+  static const setting = '${iconPath}Setting.svg'; 
+  static const clock = '${iconPath}clock.svg'; 
+}
